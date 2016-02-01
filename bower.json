@@ -1,0 +1,21 @@
+{
+  "name": "stockquote",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/_lib"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.6",
+    "angular": "angularjs#^1.4.9"
+  }
+}

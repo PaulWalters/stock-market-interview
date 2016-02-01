@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <h1>Stock Quote</h1>
+		 	<form class="symbol-lookup" ng-submit="getStock()">
+				<div class="input-group stylish-input-group">
+                    <input type="text" class="form-control" placeholder="Enter Stock Symbol" ng-model="stockSymbol">
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+					  </div>
+		 </form>
+              
+</div>
+<div class="return-container">
+<div ng-hide="stockQuote.Status=!'SUCCESS'">
+	<h1><big><strong>{{ stockQuote.Symbol }}</strong></big><br />
+	<small>{{ stockQuote.Name }}</small>
+	</h1>
+			<div class="last-price" ng-class="{'red-text' : stockQuote.Change < 0 }">{{ stockQuote.LastPrice }}</div>
+	<p>{{ stockQuote.Message }}</p>
+</div>
