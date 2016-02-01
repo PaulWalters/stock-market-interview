@@ -21,3 +21,8 @@ Although this is a very simple application, please organize it as you would an e
 Please fork this repository and submit your solution as a pull request. Modify the README with instructions on how to run the application. The application should run with a single command (either `grunt` or `gulp`).
 
 Good Luck! :smiley:
+
+### Submitted
+
+Running grunt should both create a minified distribution package in the dist/ direectory and start the application in a browser window
+

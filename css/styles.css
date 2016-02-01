@@ -13,12 +13,14 @@
 .last-price{
 	font-size: 36px;
 	font-weight:bold;
+	color: green;
 	
 }
 
 .return-container{
 	width: 80%;
 	margin: auto;
+	
 }
 .red-text{
 	color: red;

@@ -18,5 +18,6 @@
 	<small>{{ stockQuote.Name }}</small>
 	</h1>
 			<div class="last-price" ng-class="{'red-text' : stockQuote.Change < 0 }">{{ stockQuote.LastPrice }}</div>
+	{{ stockQuote.Change }}
 	<p>{{ stockQuote.Message }}</p>
 </div>
